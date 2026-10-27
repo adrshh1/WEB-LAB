@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<body>
+<link rel="stylesheet" href="program6.css">
+<form>
+<h1 align="center">REGISTRATION FORM</h1>
+<fieldset><legend>user information</legend>
+<label for="name">Name</label>
+<select>
+<option>Mr.</option>
+<option>Mrs</option>
+<option>Miss</option>
+</select><input type="text" id="name"required>
+<br>
+<br>
+<label for="phone">Phone:</label><input type="tel" id="phone"required>
+<label>Email:<input type="email"required</label>
+</fieldset>
+<br>
+<br>
+<label for="address">Address:</label><textarea id="address"required></textarea>
+<br>
+<br>
+<label>Gender</label>
+<input type="radio" name="gender"value="Male"><label>Male</label>
+<input type="radio" name="gender"value="Female"><label>Female</label>
+<input type="radio" name="gender"value="Other"><label>Other</label>
+<br>
+<br>
+<label>Languages known</label>
+<input type="checkbox"name="language" value="English"><label>English</label>
+<input type="checkbox"name="language" value="Malayalam"><label>Malayalam</label>
+<input type="checkbox"name="language" value="Hindi"><label>Hindi</label>
+<br>
+<br>
+<label for="course">Course:</label>
+<select id="course"name="course"><option value=" ">Course</option>
+<option>BCA</option>
+<option>Bsc Computer science</option>
+<option>MCA</option>
+<option>B.Tec in AI</option>
+<option>B.Tec in IT</option>
+<option>B.Tec in EEE</option>
+</select>
+<br>
+<br>
+<input type="reset"value="Reset">
+<input type="submit"value="Submit">
+</fieldset>
+</form>
+</body>
+</html>
