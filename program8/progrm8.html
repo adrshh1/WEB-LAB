@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>pgm8</title>
+</head>
+<style>
+body { text-align: center;
+       margin-top: 200px;
+     }
+img {
+    width:150px;
+    height:250px;
+    border-radius: 50%; 
+    border:3px solid red;
+    object-fit:cover;
+  }
+</style>
+<img src="d.jpeg"id="image" onmouseover="one()" onmouseout="two()">
+<p id="p1">
+</p>
+<script>
+function one()
+{
+document.getElementById("image").src="b.jpeg";
+document.getElementById("p1").innerHTML="onmouseover";
+document.getElementById("p1").style.color="blue";
+}
+function two()
+{
+document.getElementById("image").src="c.jpeg";
+document.getElementById("p1").innerHTML="onmouseout";
+document.getElementById("p1").style.color="red";
+}
+</script>
+</body>
+</html>
